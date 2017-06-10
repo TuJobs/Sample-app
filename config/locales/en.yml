@@ -1,4 +1,18 @@
 en:
+  sessions:
+    new:
+      title: "Log in"
+      singup: "Sign up now!"
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+
+    create:
+      invalid_email_pass: "Invalid email/password combination"
+
+    destroy:
+      destroy_user: "Destroy User!"
+
   users:
     new:
       signup_page: "This will be a signup page for new users."
@@ -14,6 +28,9 @@ en:
     error_messages:
       error: "error"
       content: "The form contains"
+
+    create:
+      welcome_you: "Welcome to the Sample App!"
 
   static_pages:
     about:
@@ -59,7 +76,11 @@ en:
 
     header:
       app_name: "Sample app"
-      login: "Log in"
+      log_in: "Log in"
       home: "Home"
       help: "Help"
-
+      log_out: "Log out"
+      users: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      account: "Account"

@@ -2,14 +2,14 @@
 @import 'bootstrap-sprockets';
 
 $gray: #777;
+$light-black: #bbb;
 $hidden-light-gray: #eaeaea;
 $light-gray: #555;
 $lighter-gray: #222;
 $white: #fff;
-$grey: #bbb;
 
 aside {
-  section.user-info {
+  .user-info {
     margin-top: 20px;
   }
   section {
@@ -56,7 +56,7 @@ aside {
 
 input, textarea, select, .uneditable-input {
   @include box-sizing;
-  border: 1px solid $grey;
+  border: 1px solid $light-black;
   margin-bottom: 15px;
   width: 100%;
 }
@@ -75,11 +75,11 @@ input {
 }
 
 .debug-dump {
+  @include box-sizing;
   clear: both;
   float: left;
   margin-top: 45px;
   width: 100%;
-  @include box-sizing;
 }
 
 .bold {font-weight: bold;}

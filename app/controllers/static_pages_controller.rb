@@ -1,5 +1,5 @@
 class StaticPagesController < ApplicationController
- def show
+  def show
     if valid_page?
       render template: "static_pages/#{params[:page]}"
     else
@@ -7,21 +7,8 @@ class StaticPagesController < ApplicationController
     end
   end
 
-  def home
-  end
-
-  def help
-  end
-
-  def about
-  end
-
-  def contact
-  end
-
   private
-
   def valid_page?
-    File.exist?(Pathname.new(Rails.root + "app/views/static_pages/#{params[:page]}.html.erb"))
+    File.exist? Pathname.new Rails.root + "app/views/static_pages/#{params[:page]}.html.erb"
   end
 end

@@ -6,6 +6,7 @@ en:
       email: "Email"
       password: "Password"
       new_user: "New user?"
+      remember: "Remember me on this computer"
 
     create:
       invalid_email_pass: "Invalid email/password combination"
@@ -28,6 +29,9 @@ en:
     error_messages:
       error: "error"
       content: "The form contains"
+
+    create:
+      welcome_you: "Welcome to the Sample App!"
 
     create:
       welcome_you: "Welcome to the Sample App!"

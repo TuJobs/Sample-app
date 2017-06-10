@@ -2,3 +2,5 @@ user:
   name_length: 50
   email_length: 255
   min_length: 6
+helpers:
+  size: 80

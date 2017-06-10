@@ -1,23 +1,55 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+
+  users:
+    new:
+      singup_page: "This will be a signup page for new users."
+      title: "Sing Up"
+
+  static_pages:
+    about:
+      book: "book"
+      screen: "screencast series"
+      content: "The %{link1} is a %{link2} and %{link3} to teach
+        web development with %{link4} .This is the sample application
+        for the tutorial."
+      title: "About"
+      tutorial: "Ruby on Rails Tutorial"
+      ror: "Ruby on Rails"
+
+    contact:
+      contact_page: "contact page"
+      content: "Contact the Ruby on Rails Tutorial about the sample app at the %{link1} . "
+      title: "Contact"
+
+    home:
+      content: "This is the home page for the %{link1} sample application."
+      singup: "Singup now!"
+      title: "Home"
+      tutorial: "Ruby on Rails Tutorial"
+      welcome: "Welcome to the Sample App"
+
+    help:
+      content: " Get help on the Ruby on Rails Tutorial at the%{link1}.
+        To get help on this sample app, see the %{link2} book."
+      rubyonrails: "Ruby on Rails Tutorial"
+      title: "Help"
+      tutorial: "Rails Tutorial help section"
+
+  layouts:
+    _footer:
+      about: "About"
+      contact: "Contact"
+      content: " The %{link1} by %{link2} "
+      name: "Michael Hartl"
+      new: "New"
+      tutorial: "Ruby on Rails Tutorial"
+
+    application:
+      ruby_app: "Ruby Rails"
+
+    _header:
+      app_name: "Sample app"
+      login: "Log in"
+      home: "Home"
+      help: "Help"
+

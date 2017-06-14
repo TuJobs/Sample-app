@@ -2,8 +2,8 @@ en:
 
   users:
     new:
-      singup_page: "This will be a signup page for new users."
-      title: "Sing Up"
+      signup_page: "This will be a signup page for new users."
+      title: "Sign Up"
 
   static_pages:
     about:
@@ -23,7 +23,7 @@ en:
 
     home:
       content: "This is the home page for the %{link1} sample application."
-      singup: "Singup now!"
+      signup: "Signup now!"
       title: "Home"
       tutorial: "Ruby on Rails Tutorial"
       welcome: "Welcome to the Sample App"

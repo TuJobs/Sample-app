@@ -1,11 +1,86 @@
-@import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'bootstrap-sprockets';
 
 $gray: #777;
 $hidden-light-gray: #eaeaea;
 $light-gray: #555;
 $lighter-gray: #222;
 $white: #fff;
+$grey: #bbb;
+
+aside {
+  section.user-info {
+    margin-top: 20px;
+  }
+  section {
+    margin-top: 20px;
+    padding: 10px 0;
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+    span {
+      display: block;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+    h1 {
+      font-size: 1.4em;
+      letter-spacing: -1px;
+      margin: 0 0 3px;
+      text-align: left;
+    }
+  }
+}
+
+.error-explanation {
+  color: red;
+  ul {
+    color: red;
+    margin: 0 0 30px;
+  }
+}
+
+.field-with-errors {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
+  }
+}
+
+@mixin box-sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input, textarea, select, .uneditable-input {
+  @include box-sizing;
+  border: 1px solid $grey;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input {
+  height: auto !important;
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.gravatar-edit {
+  margin-top: 15px;
+}
+
+.debug-dump {
+  clear: both;
+  float: left;
+  margin-top: 45px;
+  width: 100%;
+  @include box-sizing;
+}
 
 .bold {font-weight: bold;}
 
@@ -53,7 +128,7 @@ p {
   line-height: 1.7em;
 }
 
-#logo {
+.logo {
   color: $white;
   float: left;
   font-size: 1.7em;

@@ -1,9 +1,19 @@
 en:
-
   users:
     new:
       signup_page: "This will be a signup page for new users."
       title: "Sign Up"
+      confirmation: "Confirmation"
+      create_account: "Create my account"
+
+    create:
+      welcome_you: "Welcome to the Sample App!"
+      spam: "Spam alerts"
+
+  shared:
+    error_messages:
+      error: "error"
+      content: "The form contains"
 
   static_pages:
     about:
@@ -36,10 +46,10 @@ en:
       tutorial: "Rails Tutorial help section"
 
   layouts:
-    _footer:
+    footer:
       about: "About"
       contact: "Contact"
-      content: " The %{link1} by %{link2} "
+      content: "The %{link1} by %{link2}"
       name: "Michael Hartl"
       new: "New"
       tutorial: "Ruby on Rails Tutorial"
@@ -47,7 +57,7 @@ en:
     application:
       ruby_app: "Ruby Rails"
 
-    _header:
+    header:
       app_name: "Sample app"
       login: "Log in"
       home: "Home"

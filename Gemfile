@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
+gem "bcrypt", "~> 3.1.7"
 gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
 gem "config"
@@ -17,6 +18,7 @@ group :development do
   gem "listen", "~> 3.0.5"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
+  gem "web-console", ">= 3.3.0"
   gem "web-console", ">= 3.3.0"
 end
 

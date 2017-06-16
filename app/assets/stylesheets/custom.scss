@@ -2,8 +2,8 @@
 @import 'bootstrap-sprockets';
 
 $gray: #777;
-$light-black: #bbb;
 $hidden-light-gray: #eaeaea;
+$light-black: #bbb;
 $light-gray: #555;
 $lighter-gray: #222;
 $white: #fff;
@@ -126,6 +126,19 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+}
+
+.checkbox {
+  margin: -10px 0 10px 0;
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
+}
+
+.session-remember-me {
+  margin-left: 0;
+  width: auto;
 }
 
 .logo {

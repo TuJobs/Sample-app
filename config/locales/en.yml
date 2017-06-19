@@ -7,10 +7,8 @@ en:
       password: "Password"
       new_user: "New user?"
       remember: "Remember me on this computer"
-
     create:
       invalid_email_pass: "Invalid email/password combination"
-
     destroy:
       destroy_user: "Destroy User!"
 
@@ -20,19 +18,48 @@ en:
       title: "Sign Up"
       confirmation: "Confirmation"
       create_account: "Create my account"
-
+      name: "Your Name"
+      email: "Your Email"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
+      please: "Please log in."
+    index:
+      title: "All users"
     create:
       welcome_you: "Welcome to the Sample App!"
       spam: "Spam alerts"
+    update:
+      profile_update: "Profile updated"
+      not_update: "Update failed!"
+    destroy:
+      delete_user: "User deleted"
+      not_destroy: "Error destroy"
+    logged_in_user:
+      please: "Please log in."
+    user:
+      you_sure: "You sure?"
+      delete: "delete"
+    edit:
+      title: "Edit user"
+      save_changes: "Save changes"
+      name: "Your Name"
+      email: "Your Email"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
+      change: "change"
+      update_profile: "Update your profile"
+    form:
+      name: "Your Name"
+      email: "Your Email"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
 
   shared:
     error_messages:
       error: "error"
       content: "The form contains"
-
     create:
       welcome_you: "Welcome to the Sample App!"
-
     create:
       welcome_you: "Welcome to the Sample App!"
 
@@ -46,19 +73,16 @@ en:
       title: "About"
       tutorial: "Ruby on Rails Tutorial"
       ror: "Ruby on Rails"
-
     contact:
       contact_page: "contact page"
       content: "Contact the Ruby on Rails Tutorial about the sample app at the %{link1} . "
       title: "Contact"
-
     home:
       content: "This is the home page for the %{link1} sample application."
       signup: "Signup now!"
       title: "Home"
       tutorial: "Ruby on Rails Tutorial"
       welcome: "Welcome to the Sample App"
-
     help:
       content: " Get help on the Ruby on Rails Tutorial at the%{link1}.
         To get help on this sample app, see the %{link2} book."
@@ -74,10 +98,8 @@ en:
       name: "Michael Hartl"
       new: "New"
       tutorial: "Ruby on Rails Tutorial"
-
     application:
       ruby_app: "Ruby Rails"
-
     header:
       app_name: "Sample app"
       log_in: "Log in"

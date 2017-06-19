@@ -2,5 +2,10 @@ user:
   name_length: 50
   email_length: 255
   min_length: 6
+  size: 50
+  per_page: 10
 helpers:
   size: 80
+db:
+  slot: 99
+

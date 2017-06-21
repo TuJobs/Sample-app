@@ -9,6 +9,8 @@ en:
       remember: "Remember me on this computer"
     create:
       invalid_email_pass: "Invalid email/password combination"
+      account_not_activated: "Account not activated."
+      check_mail: "Check your email for the activation link."
     destroy:
       destroy_user: "Destroy User!"
 
@@ -28,6 +30,7 @@ en:
     create:
       welcome_you: "Welcome to the Sample App!"
       spam: "Spam alerts"
+      check_mail: "Please check your email to activate your account."
     update:
       profile_update: "Profile updated"
       not_update: "Update failed!"
@@ -110,3 +113,18 @@ en:
       profile: "Profile"
       setting: "Settings"
       account: "Account"
+
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      title: "Sample App"
+      active: "Activate"
+    password_reset:
+      hi: "Hi"
+      title: "User#password_reset"
+      content: "find me in app/views/user_mailer/password_reset.html.erb"
+  account_activation:
+    edit:
+      account_activated: "Account activated!"
+      activation_link: "Invalid activation link"

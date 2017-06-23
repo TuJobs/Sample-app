@@ -57,11 +57,19 @@ en:
       email: "Your Email"
       password: "Password"
       password_confirmation: "Password Confirmation"
+    show:
+      microposts: "Microposts"
 
   shared:
     error_messages:
       error: "error"
       content: "The form contains"
+    micropost_form:
+      content_post: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      my_profile: "view my profile"
+      micropost: "micropost"
     create:
       welcome_you: "Welcome to the Sample App!"
     create:
@@ -87,12 +95,16 @@ en:
       title: "Home"
       tutorial: "Ruby on Rails Tutorial"
       welcome: "Welcome to the Sample App"
+      micropost_feed: "Micropost Feed"
     help:
       content: " Get help on the Ruby on Rails Tutorial at the%{link1}.
         To get help on this sample app, see the %{link2} book."
       rubyonrails: "Ruby on Rails Tutorial"
       title: "Help"
       tutorial: "Rails Tutorial help section"
+    application:
+      logged_in_user:
+        pl_login: "Please log in."
 
   layouts:
     footer:
@@ -157,3 +169,17 @@ en:
       reset_password: "Password has been reset."
     check_expiration:
       password_expired: "Password reset has expired."
+
+  microposts:
+    micropost:
+      posted: "Posted"
+      you_sure: "You sure?"
+      ago: "ago."
+      micropost: "micropost"
+    create:
+      micropost_create: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+    picture_size:
+      limit_picture: "should be less than 5MB"
+      file_size: 'Maximum file size is 5MB. Please choose a smaller file.'

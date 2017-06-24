@@ -1,7 +1,9 @@
-  class User < ApplicationRecord
+class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
+
   attr_accessor :remember_token, :activation_token, :reset_token
 
-  before_save   {email.downcase!}
+  before_save {email.downcase!}
   before_create :create_activation_digest
 
   validates :name, presence: true,
@@ -66,6 +68,10 @@
 
   def password_reset_expired?
     reset_sent_at < Settings.user.gi.hours.ago
+  end
+
+  def feed
+    Micropost.load_feed id
   end
 
   private

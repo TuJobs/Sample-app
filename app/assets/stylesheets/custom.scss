@@ -7,6 +7,7 @@ $light-black: #bbb;
 $light-gray: #555;
 $lighter-gray: #222;
 $white: #fff;
+$gray-nice-one: #e8e8e8;
 
 aside {
   .user-info {
@@ -68,10 +69,9 @@ input {
 .gravatar {
   float: left;
   margin-right: 10px;
-}
-
-.gravatar-edit {
-  margin-top: 15px;
+  -edit {
+    margin-top: 15px;
+  }
 }
 
 .debug-dump {
@@ -190,3 +190,48 @@ footer {
   }
 }
 
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    overflow: hidden;
+    border-top: 1px solid $gray-nice-one;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
+  }
+}

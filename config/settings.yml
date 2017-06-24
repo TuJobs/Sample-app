@@ -9,4 +9,13 @@ helpers:
   size: 80
 db:
   slot: 99
+micropost:
+  max_length: 140
+  size_limit: 5
+  size_gravatar: 50
+shared:
+  size_limit: 5
+picture:
+  width: 400
+  height: 400
 

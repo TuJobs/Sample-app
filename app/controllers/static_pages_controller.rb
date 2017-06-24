@@ -1,14 +1,19 @@
 class StaticPagesController < ApplicationController
-  def show
-    if valid_page?
-      render template: "static_pages/#{params[:page]}"
-    else
-      render file: "public/404.html", status: :not_found
+  def home
+    if logged_in?
+      @micropost  = current_user.microposts.build
+      @feed_items = current_user.feed
+        .select(:id, :content, :picture, :user_id, :created_at).micropost_sort
+        .paginate page: params[:page], per_page: Settings.micropost.size_limit
     end
   end
 
-  private
-  def valid_page?
-    File.exist? Pathname.new Rails.root + "app/views/static_pages/#{params[:page]}.html.erb"
+  def about
+  end
+
+  def help
+  end
+
+  def contact
   end
 end

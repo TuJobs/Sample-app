@@ -4,7 +4,7 @@
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t(".home"), root_path %></li>
-        <li><%= link_to t(".help"), "/static_pages/help" %></li>
+        <li><%= link_to t(".help"), help_path %></li>
         <% if logged_in? %>
           <li><%= link_to t(".users"), users_path %></li>
           <li class="dropdown">

@@ -59,6 +59,17 @@ en:
       password_confirmation: "Password Confirmation"
     show:
       microposts: "Microposts"
+    following:
+      follow: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view: "view my profile"
+      microposts: "Microposts:"
 
   shared:
     error_messages:
@@ -74,6 +85,9 @@ en:
       welcome_you: "Welcome to the Sample App!"
     create:
       welcome_you: "Welcome to the Sample App!"
+    stats:
+      following: "following"
+      followers: "followers"
 
   static_pages:
     about:
@@ -173,9 +187,9 @@ en:
   microposts:
     micropost:
       posted: "Posted"
+      delete: "delete"
       you_sure: "You sure?"
       ago: "ago."
-      micropost: "micropost"
     create:
       micropost_create: "Micropost created!"
     destroy:
@@ -183,3 +197,7 @@ en:
     picture_size:
       limit_picture: "should be less than 5MB"
       file_size: 'Maximum file size is 5MB. Please choose a smaller file.'
+
+  relationships:
+    not_search: "khong tim thay user"
+    not_destroy: "khong huy bo duoc user"
